@@ -119,7 +119,7 @@ WIN_COMBINATIONS = [
   
   def winner 
     if won?
-      return @board[won?(board)[0]]
+      return @board[won?[0]]
     end
   end
   
