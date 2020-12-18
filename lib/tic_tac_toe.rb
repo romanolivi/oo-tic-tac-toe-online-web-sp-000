@@ -73,5 +73,8 @@ WIN_COMBINATIONS = [
     end
   end
   
+  def full?
+    if 
+  
   
 end
