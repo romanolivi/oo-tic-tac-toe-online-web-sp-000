@@ -102,7 +102,7 @@ WIN_COMBINATIONS = [
   def draw?
     if full? && !won?
       return true 
-    if !full? && !won?
+    elsif !full? && !won?
       false
     
   
