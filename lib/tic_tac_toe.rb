@@ -87,6 +87,8 @@ WIN_COMBINATIONS = [
         return single_combo
       end
     end
+    
+    return false
   end
   
   
