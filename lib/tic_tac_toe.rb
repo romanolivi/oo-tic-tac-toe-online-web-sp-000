@@ -104,11 +104,12 @@ WIN_COMBINATIONS = [
       return true 
     elsif !full? && !won?
       false
+    elsif won?
+      false
+    end
+  end
     
   
-  
-  
-  
-  
+
   
 end
