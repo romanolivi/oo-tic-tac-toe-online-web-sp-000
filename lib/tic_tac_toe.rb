@@ -123,6 +123,14 @@ WIN_COMBINATIONS = [
     end
   end
   
+  def play 
+    until over?
+      turn 
+      display_board
+    end
+    
+    if won?
+      puts "Cong"
 
   
 end
