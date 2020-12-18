@@ -109,6 +109,13 @@ WIN_COMBINATIONS = [
     end
   end
     
+  def over?
+    if full? || won? || draw?
+      true 
+    else 
+      false 
+    end
+  end
   
 
   
