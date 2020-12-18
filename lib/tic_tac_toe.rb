@@ -66,7 +66,12 @@ WIN_COMBINATIONS = [
     user_input = gets.chomp()
     index = input_to_index(user_input)
     if valid_move?(index)
-      @board[index]
-    
+      move(index, current_player)
+      display_board
+    else 
+      turn
+    end
   end
+  
+  
 end
