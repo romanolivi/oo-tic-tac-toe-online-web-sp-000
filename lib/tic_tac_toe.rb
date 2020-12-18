@@ -92,8 +92,12 @@ WIN_COMBINATIONS = [
   end
   
   def full?
-    @board.any{|index| index == "X" || index == "O"}
+    if @board.any{|index| index == "X" || index == "O"}
       return false 
+    else 
+      true
+    end
+  end
       
     
   
