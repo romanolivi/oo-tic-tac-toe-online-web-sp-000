@@ -73,8 +73,15 @@ WIN_COMBINATIONS = [
     end
   end
   
-  def full?
-    if 
+  def won?
+    WIN_COMBINATIONS.each do |single_combo|
+      win_index_1 = single_combo[0]
+      win_index_2 = single_combo[1]
+      win_index_3 = single_combo[2]
+  
+  
+  
+  
   
   
 end
