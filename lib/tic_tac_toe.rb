@@ -84,6 +84,10 @@ WIN_COMBINATIONS = [
       position_3 = @board[win_index_3]
       
       if position_1 == position_2 && position_2 == position_3 && position_taken?(win_index_1)
+        return single_combo
+      end
+    end
+  end
   
   
   
